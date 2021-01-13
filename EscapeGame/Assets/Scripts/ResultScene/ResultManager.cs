@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class ResultManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
         // エンターキーを押したらリザルトシーンへ遷移する
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            SceneController.ChangeScene(SceneType.ResultScene);
+            SceneController.ChangeScene(SceneType.TitleScene);
         }
     }
 }
