@@ -1,0 +1,178 @@
+<mxfile host="65bd71144e">
+    <diagram id="ePrbd7EGi-OSffqME4N7" name="ページ1">
+        <mxGraphModel dx="2148" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 36px&quot;&gt;ボタン押下による画面遷移&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="189" y="40" width="450" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="79.99999999999997" y="160" width="640" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font color=&quot;#0a0a0a&quot;&gt;背景画像&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;strokeWidth=3;fillColor=#FAFAFA;strokeColor=#050505;" parent="13" vertex="1">
+                    <mxGeometry x="2.842170943040401e-14" width="640" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="group" parent="13" vertex="1" connectable="0">
+                    <mxGeometry x="600" width="40" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;strokeColor=#006EAF;strokeWidth=1;fillColor=#1ba1e2;fontColor=#ffffff;" parent="9" vertex="1">
+                    <mxGeometry width="40" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=36;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;fontColor=#ffffff;" parent="9" vertex="1">
+                    <mxGeometry x="10" y="140" width="20" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="group;rotation=-180;" parent="13" vertex="1" connectable="0">
+                    <mxGeometry x="2.842170943040401e-14" width="40" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;strokeColor=#006EAF;strokeWidth=1;fillColor=#1ba1e2;fontColor=#ffffff;rotation=-180;" parent="10" vertex="1">
+                    <mxGeometry width="40" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=36;strokeColor=#001DBC;strokeWidth=1;fillColor=#0050ef;fontColor=#ffffff;rotation=-180;" parent="10" vertex="1">
+                    <mxGeometry x="10" y="140" width="20" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 18px&quot;&gt;左右の矢印がクリック（タップ）されたら背景画像が変わる&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontColor=#0A0A0A;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="570" width="500" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="15" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="遷移ボタン" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="640" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="背景" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="640" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="クリックされたら&lt;br&gt;LeftまたはRightを渡す" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="650" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;endArrow=diamondThin;endFill=0;endSize=12;strokeWidth=1;" edge="1" parent="1" source="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="1040" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="ScreenTransitionButton" style="swimlane;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="880" width="320" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;span style=&quot;text-align: left&quot;&gt;- OnButtonClick()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="45">
+                    <mxGeometry x="10" y="250" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;text-align: left&quot;&gt;- UnityEvent screenTransition&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="45">
+                    <mxGeometry x="10" y="50" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;span style=&quot;text-align: left&quot;&gt;+ SetScreenEvent(UnityEvent event)&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="45">
+                    <mxGeometry x="10" y="170" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="- enum direction" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="45">
+                    <mxGeometry x="10" y="90" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;span style=&quot;text-align: left&quot;&gt;+ SetDirection(enum dir)&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="45">
+                    <mxGeometry x="10" y="210" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=18;endArrow=none;endFill=0;endSize=12;strokeWidth=1;" edge="1" parent="1" source="52" target="87">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Background" style="swimlane;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="880" width="320" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="- Image background" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="52">
+                    <mxGeometry x="35" y="50" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="画面遷移処理を呼び出し" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1320" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;endArrow=classic;endFill=1;endSize=6;strokeWidth=1;" edge="1" parent="1" source="67" target="108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="遷移ボタンにイベントを登録" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1280" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;endArrow=classic;endFill=1;endSize=6;strokeWidth=1;" edge="1" parent="1" source="73" target="65">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="ボタン押下イベント発生" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="1240" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;endArrow=classic;endFill=1;endSize=6;strokeWidth=1;" edge="1" parent="1" source="75" target="99">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="登録イベントの呼び出し" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1440" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;endArrow=classic;endFill=1;endSize=6;strokeWidth=1;" edge="1" parent="1" source="76" target="77">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;font style=&quot;font-size: 12px&quot;&gt;nextScreen = (currentScreen + 1) %&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;screenArray.Length&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1600" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="遷移先の背景に変更" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1680" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="ScreenManager" style="swimlane;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="880" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="&lt;span style=&quot;text-align: left&quot;&gt;-&amp;nbsp;ScreenTransition(enum dir)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="210" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="- ScreenTransitionButton[] buttonArray" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="83">
+                    <mxGeometry x="5" y="50" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="- Screen[] screenArray" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="90" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="- int currentScreen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="130" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- NextScreen()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="250" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;- PreviousScreen()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="290" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;endArrow=diamondThin;endFill=0;endSize=12;strokeWidth=1;" edge="1" parent="1" source="87">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="800" y="1000" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="Screen" style="swimlane;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="880" width="320" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="+ Display()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="87">
+                    <mxGeometry x="10" y="170" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="- Background background" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="87">
+                    <mxGeometry x="10" y="60" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;endArrow=classic;endFill=1;endSize=6;strokeWidth=1;" edge="1" parent="1" source="99" target="76">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;endArrow=classic;endFill=1;endSize=6;strokeWidth=1;" edge="1" parent="1" source="99" target="100">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="dir == Right" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1520" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;endArrow=classic;endFill=1;endSize=6;strokeWidth=1;" edge="1" parent="1" source="100">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="1660" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="840" y="1660"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="&lt;font style=&quot;font-size: 12px&quot;&gt;nextScreen = Mathf.Max(currentScreen - 1,screenArray.Length)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="1600" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="1560" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="1510" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="遷移ボタンに向きを設定" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1360" width="240" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
